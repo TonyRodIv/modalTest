@@ -71,7 +71,7 @@ body {
 }
 
 .card__content {
-    height: 88vh;
+    height: 85vh;
     padding: 1rem;
     display: flex;
     justify-content: center;
