@@ -45,11 +45,16 @@ body {
     cursor: pointer;
 }
 
+#abrir:hover{
+    background-color: #1a796c;
+}
+
 #fechar {
     background-color: #8b2626;
     /* Green */
     border: none;
     color: white;
+    font-weight: bold;
     padding: 0.75rem 1.25rem;
     text-align: center;
     border-radius: 0.7125rem;
@@ -58,6 +63,10 @@ body {
     font-size: 1rem;
     cursor: pointer;
 
+}
+
+#fechar:hover{
+    background-color: #801e1e;
 }
 
 .card {
@@ -71,7 +80,7 @@ body {
 }
 
 .card__content {
-    height: 85vh;
+    height: 88vh;
     padding: 1rem;
     display: flex;
     justify-content: center;
